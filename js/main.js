@@ -6,11 +6,11 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
 
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-    $(".nav-bar").css({"background": "#ffffff", "padding": "1.5em 3.5em"})
-    .addClass("shadow");
+    $(".nav-bar").css({"background": "#ffffff", "padding": "1em 3em"})
+    .addClass("shadow-sm");
   } else {
     $('.nav-bar').css({"background": "transparent", "padding": "2.5em 4.5em"})
-    .removeClass("shadow");
+    .removeClass("shadow-sm");
   }
 }
 
