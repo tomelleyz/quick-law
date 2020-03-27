@@ -8,6 +8,10 @@
     background: transparent;
     transition: all 0.3s ease-in;
 
+        .row {
+            align-items: baseline;
+        }
+
     /* Search box */
     input[type=search] {
         background-color: transparent;
@@ -33,7 +37,9 @@
     transition: all 0.4s ease-in-out;
     z-index: 1;
 
-    .menu-item {
+    .menu-items {
+        padding: 4em 0 3em;
+
         a {
             font-family: $main-header-font;
             font-style: normal;

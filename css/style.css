@@ -141,6 +141,9 @@ h3, .small-header-text {
   transition: all 0.3s ease-in;
   /* Search box */
 }
+.nav-bar .row {
+  align-items: baseline;
+}
 .nav-bar input[type=search] {
   background-color: transparent;
   background-image: url(../icons/search_icon.png);
@@ -157,12 +160,15 @@ h3, .small-header-text {
 /* MENU */
 .menu {
   position: fixed;
-  top: -95vh;
+  top: -97vh;
   opacity: 0.2;
   transition: all 0.4s ease-in-out;
   z-index: 1;
 }
-.menu .menu-item a {
+.menu .menu-items {
+  padding: 4em 0 3em;
+}
+.menu .menu-items a {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: normal;
@@ -171,7 +177,7 @@ h3, .small-header-text {
   color: #121212;
   text-decoration: none;
 }
-.menu .menu-item a:hover, .menu .menu-item a:focus {
+.menu .menu-items a:hover, .menu .menu-items a:focus {
   color: #C6A53C;
 }
 .menu .social-media-links a {
