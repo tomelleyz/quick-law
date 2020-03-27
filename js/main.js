@@ -22,7 +22,7 @@ $(".menu-icon").click(function(){
 
 // Function that closes Mobile Nav
 $(".close-menu-icon").click(function(){
-    $(".menu").css({"top": "-95vh", "opacity": 0.2});
+    $(".menu").css({"top": "-97vh", "opacity": 0.2});
     $(".nav-bar").show("fast");
 });
 
