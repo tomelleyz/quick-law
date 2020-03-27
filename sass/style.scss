@@ -33,7 +33,6 @@
 .menu {
     position: fixed;
     top: -97vh;
-    opacity: 0.2;
     transition: all 0.4s ease-in-out;
     z-index: 1;
 
@@ -84,7 +83,7 @@
 
 /* Buy agreement section */
 .buy-agreement-section {
-    padding: 16em 31.25%;
+    padding: 16em 0;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 38.08%, rgba(255, 255, 255, 0) 101.55%),
      url(../images/signing_an_agreement.png);
     background-position: center;

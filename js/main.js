@@ -16,14 +16,15 @@ function scrollFunction() {
 
 // Function that opens Mobile Nav 
 $(".menu-icon").click(function(){
-    $(".nav-bar").hide();
-    $(".menu").css({"top": "0", "opacity": 1});
+    $(".nav-bar").fadeOut("fast", function() {
+      $(".menu").css("top", 0);
+    });
 });
 
 // Function that closes Mobile Nav
 $(".close-menu-icon").click(function(){
-    $(".menu").css({"top": "-97vh", "opacity": 0.2});
-    $(".nav-bar").show("fast");
+    $(".menu").css("top", "-97vh")
+    $(".nav-bar").fadeIn("slow");
 });
 
 });
