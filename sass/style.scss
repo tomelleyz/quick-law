@@ -1,0 +1,173 @@
+@import "color/colorStyles";
+
+@import "typography/typography";
+
+/* Navigation Bar */
+.nav-bar {
+    padding: 2.5em 4.5em;
+    background: transparent;
+    transition: all 0.3s ease-in;
+
+    /* Search box */
+    input[type=search] {
+        background-color: transparent;
+        background-image: url(../icons/search_icon.png);
+        background-position: right center;
+        background-repeat: no-repeat;
+        padding: 1em 1.5em;
+        border: none;
+        outline: none;
+    }
+
+    .menu-icon {
+        background: transparent;
+        
+    }
+}
+
+/* MENU */
+.menu {
+    position: fixed;
+    top: -95vh;
+    opacity: 0.2;
+    transition: all 0.4s ease-in-out;
+    z-index: 1;
+
+    .menu-item {
+        a {
+            font-family: $main-header-font;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.7em;
+            text-align: right;
+            color: $text-01;
+            text-decoration: none;
+
+                &:hover, &:focus {
+                    color: $brand-01;
+                }
+        }
+    }
+    .social-media-links {
+        a {
+            font-family: $body-font;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1em;
+            line-height: 20px;
+            letter-spacing: 0.08em;
+            color: $text-02;
+            margin: 0 1em;
+        }
+    }
+}
+
+/* Header */
+.header-section {
+    min-height: 100vh;
+    background-image: url(../images/header_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Services summary */
+.services-summary-section {
+    padding: 10em 5.5%;
+}
+
+/* Buy agreement section */
+.buy-agreement-section {
+    padding: 16em 31.25%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 38.08%, rgba(255, 255, 255, 0) 101.55%),
+     url(../images/signing_an_agreement.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Latest News section */
+.latest-news-section {
+    padding: 11em 0;
+}
+
+/* News Component */
+.news-component {
+    background-color: $ui-02;
+    border-radius: 10px;
+    padding: 2.5em 1.5em;
+
+    .smaller-title {
+        color: $brand-02;
+        font-family: $body-font;
+        font-weight: 600;
+        font-size: 1.125em;
+    }
+}
+
+/* About Us section */ 
+.about-us-section {
+    padding: 16rem 0;
+    background: linear-gradient(269.52deg, rgba(255, 255, 255, 0.97) 6.01%, rgba(255, 255, 255, 0) 60.09%),
+     url(../images/legal_advice.png);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .text {
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+}
+
+/* Legal Encyclopedia section */
+.legal-encyclopedia-section {
+    padding: 11em 0;
+
+    .timestamp {
+        color: $brand-02;
+        font-family: $body-font;
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .blog-title {
+        font-family: $main-header-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.25em;
+        color: $text-01;
+        margin: 4em 0 0;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: $text-01;
+    color: $ui-01;
+    padding: 4.5em 50% 9em;
+
+    hr {
+        border-top: 1px solid $ui-01;
+    }
+    .site-links {
+        a {
+            display: block;
+            color: $ui-01;
+            text-decoration: none;
+            margin: .5em 0;
+                &:hover, &:focus {
+                    color: $brand-01;
+                }
+        }
+    }
+    .terms-and-conditions {
+        a {
+            color: $ui-01;
+            text-decoration: underline;
+
+                &:hover, &:focus {
+                    color: $brand-01;
+                }
+        }
+    }
+}

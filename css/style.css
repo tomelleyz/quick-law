@@ -1,0 +1,287 @@
+/*
+    Variables 
+*/
+/* Brand */
+/* Text */
+/* Surface/Background */
+.primary-brand {
+  color: #C6A53C;
+}
+
+.secondary-brand {
+  color: #9B6E3D;
+}
+
+.tertiary-brand {
+  color: #121212;
+}
+
+/* Border Highlight */
+.border-highlight {
+  background: linear-gradient(to bottom, #FFFFFF 70%, #C6A53C 30%);
+}
+
+/* Variables */
+/* Body/Text */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  color: #425563;
+}
+
+/* Headers/Main & Body */
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #121212;
+}
+
+/* Headers/Small Text */
+h3, .small-header-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #121212;
+}
+
+/* Text Link */
+.text-link {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 32px;
+  text-decoration-line: underline;
+  color: #121212;
+}
+
+/* Large Text Link */
+.text-link-large {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25em;
+  line-height: 40px;
+  text-decoration-line: underline;
+  color: #121212;
+}
+
+/* Quotation */
+.quotation {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3em;
+  color: #121212;
+}
+
+/* Button Text */
+.button-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125em;
+  line-height: 152.5%;
+}
+
+/* Outlined Button */
+.outlined-button {
+  background-color: transparent;
+  color: #C6A53C;
+  border: 1px solid #C6A53C;
+}
+.outlined-button:hover, .outlined-button:focus {
+  background-color: #C6A53C;
+  color: #FFFFFF;
+}
+
+/* Input Label */
+.input-label {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: 24px;
+  color: #121212;
+}
+
+/*
+    Variables 
+*/
+/* Brand */
+/* Text */
+/* Surface/Background */
+.primary-brand {
+  color: #C6A53C;
+}
+
+.secondary-brand {
+  color: #9B6E3D;
+}
+
+.tertiary-brand {
+  color: #121212;
+}
+
+/* Border Highlight */
+.border-highlight {
+  background: linear-gradient(to bottom, #FFFFFF 70%, #C6A53C 30%);
+}
+
+/* Navigation Bar */
+.nav-bar {
+  padding: 2.5em 4.5em;
+  background: transparent;
+  transition: all 0.3s ease-in;
+  /* Search box */
+}
+.nav-bar input[type=search] {
+  background-color: transparent;
+  background-image: url(../icons/search_icon.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding: 1em 1.5em;
+  border: none;
+  outline: none;
+}
+.nav-bar .menu-icon {
+  background: transparent;
+}
+
+/* MENU */
+.menu {
+  position: fixed;
+  top: -95vh;
+  opacity: 0.2;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+.menu .menu-item a {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.7em;
+  text-align: right;
+  color: #121212;
+  text-decoration: none;
+}
+.menu .menu-item a:hover, .menu .menu-item a:focus {
+  color: #C6A53C;
+}
+.menu .social-media-links a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #425563;
+  margin: 0 1em;
+}
+
+/* Header */
+.header-section {
+  min-height: 100vh;
+  background-image: url(../images/header_image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Services summary */
+.services-summary-section {
+  padding: 10em 5.5%;
+}
+
+/* Buy agreement section */
+.buy-agreement-section {
+  padding: 16em 31.25%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 38.08%, rgba(255, 255, 255, 0) 101.55%), url(../images/signing_an_agreement.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Latest News section */
+.latest-news-section {
+  padding: 11em 0;
+}
+
+/* News Component */
+.news-component {
+  background-color: #F7F7F7;
+  border-radius: 10px;
+  padding: 2.5em 1.5em;
+}
+.news-component .smaller-title {
+  color: #9B6E3D;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.125em;
+}
+
+/* About Us section */
+.about-us-section {
+  padding: 16rem 0;
+  background: linear-gradient(269.52deg, rgba(255, 255, 255, 0.97) 6.01%, rgba(255, 255, 255, 0) 60.09%), url(../images/legal_advice.png);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us-section .text {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* Legal Encyclopedia section */
+.legal-encyclopedia-section {
+  padding: 11em 0;
+}
+.legal-encyclopedia-section .timestamp {
+  color: #9B6E3D;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+.legal-encyclopedia-section .blog-title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25em;
+  color: #121212;
+  margin: 4em 0 0;
+}
+
+/* Footer */
+footer {
+  background-color: #121212;
+  color: #FFFFFF;
+  padding: 4.5em 50% 9em;
+}
+footer hr {
+  border-top: 1px solid #FFFFFF;
+}
+footer .site-links a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0.5em 0;
+}
+footer .site-links a:hover, footer .site-links a:focus {
+  color: #C6A53C;
+}
+footer .terms-and-conditions a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+footer .terms-and-conditions a:hover, footer .terms-and-conditions a:focus {
+  color: #C6A53C;
+}
+
+/*# sourceMappingURL=style.css.map */

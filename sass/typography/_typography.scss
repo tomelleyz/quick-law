@@ -1,0 +1,97 @@
+/* Variables */
+$main-header-font: "Playfair Display", serif;
+$body-font: "Montserrat", sans-serif;
+$text-link-font: "Open Sans", sans-serif;
+
+
+/* Body/Text */
+body {
+    font-family: $body-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: $text-02;
+}
+
+/* Headers/Main & Body */
+h1, h2 {
+    font-family: $main-header-font;
+    font-style: normal;
+    font-weight: bold;
+    color: $text-01;
+}
+
+/* Headers/Small Text */
+h3, .small-header-text {
+    font-family: $body-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    color: $text-01;
+}
+
+/* Text Link */
+.text-link {
+    font-family: $text-link-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: $text-01;
+}
+
+/* Large Text Link */
+.text-link-large {
+    font-family: $text-link-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25em;
+    line-height: 40px;
+    text-decoration-line: underline;
+    color: $text-01;
+}
+
+/* Quotation */
+.quotation {
+    font-family: $main-header-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    color: $text-01;
+}
+
+/* Button Text */
+.button-text {
+    font-family: $body-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 152.5%;
+}
+
+/* Outlined Button */
+.outlined-button {
+    background-color: transparent;
+    color: $brand-01;
+    border: 1px solid $brand-01;
+
+        &:hover, &:focus {
+            background-color: $brand-01;
+            color: $ui-01;
+        }
+}
+
+/* Input Label */ 
+.input-label {
+    font-family: $body-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 24px;
+    color: $text-01;
+}
+
+@import "../color/colorStyles";

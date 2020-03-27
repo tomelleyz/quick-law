@@ -1,0 +1,37 @@
+/*
+    Variables 
+*/
+
+/* Brand */
+$brand-01: #C6A53C;
+$brand-02: #9B6E3D;
+$brand-03: #121212;
+
+/* Text */
+$text-01: #121212;
+$text-02: #425563;
+$text-03: #6D6E71;
+$text-04: #F7F7F7;
+
+/* Surface/Background */
+$ui-01: #FFFFFF;
+$ui-02: #F7F7F7;
+
+
+.primary-brand {
+    color: $brand-01;
+}
+.secondary-brand {
+    color: $brand-02;
+}
+.tertiary-brand {
+    color: $brand-03;
+}
+
+/* Border Highlight */
+.border-highlight {
+    background: linear-gradient(to bottom, $ui-01 70%, $brand-01 30%);
+}
+
+
+
