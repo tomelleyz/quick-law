@@ -8,10 +8,6 @@
     background: transparent;
     transition: all 0.3s ease-in;
 
-        .row {
-            align-items: baseline;
-        }
-
     /* Search box */
     input[type=search] {
         background-color: transparent;
@@ -100,13 +96,13 @@
 .news-component {
     background-color: $ui-02;
     border-radius: 10px;
-    padding: 2.5em 1.5em;
+    padding: 1.5em 1em;
 
     .smaller-title {
         color: $brand-02;
         font-family: $body-font;
         font-weight: 600;
-        font-size: 1.125em;
+        font-size: 1.1em;
     }
 }
 
