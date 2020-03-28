@@ -9,7 +9,7 @@ body {
     font-family: $body-font;
     font-style: normal;
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1rem;
     color: $text-02;
 }
 
@@ -26,9 +26,9 @@ h3, .small-header-text {
     font-family: $body-font;
     font-style: normal;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 20px;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.08rem;
     color: $text-01;
 }
 
@@ -37,7 +37,7 @@ h3, .small-header-text {
     font-family: $text-link-font;
     font-style: normal;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 32px;
     text-decoration-line: underline;
     color: $text-01;
@@ -48,7 +48,7 @@ h3, .small-header-text {
     font-family: $text-link-font;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     line-height: 40px;
     text-decoration-line: underline;
     color: $text-01;
@@ -59,7 +59,7 @@ h3, .small-header-text {
     font-family: $main-header-font;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: $text-01;
 }
 
@@ -68,7 +68,7 @@ h3, .small-header-text {
     font-family: $body-font;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     line-height: 152.5%;
 }
 
@@ -89,7 +89,7 @@ h3, .small-header-text {
     font-family: $body-font;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     line-height: 24px;
     color: $text-01;
 }

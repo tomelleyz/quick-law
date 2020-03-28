@@ -27,7 +27,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1rem;
   color: #425563;
 }
 
@@ -44,9 +44,9 @@ h3, .small-header-text {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 20px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.08rem;
   color: #121212;
 }
 
@@ -55,7 +55,7 @@ h3, .small-header-text {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 32px;
   text-decoration-line: underline;
   color: #121212;
@@ -66,7 +66,7 @@ h3, .small-header-text {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   line-height: 40px;
   text-decoration-line: underline;
   color: #121212;
@@ -77,7 +77,7 @@ h3, .small-header-text {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   color: #121212;
 }
 
@@ -86,7 +86,7 @@ h3, .small-header-text {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.125em;
+  font-size: 1.125rem;
   line-height: 152.5%;
 }
 
@@ -106,7 +106,7 @@ h3, .small-header-text {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   line-height: 24px;
   color: #121212;
 }
@@ -136,7 +136,7 @@ h3, .small-header-text {
 
 /* Navigation Bar */
 .nav-bar {
-  padding: 2em 4em;
+  padding: 2rem 4rem;
   background: transparent;
   transition: all 0.3s ease-in;
   /* Search box */
@@ -146,7 +146,7 @@ h3, .small-header-text {
   background-image: url(../icons/search_icon.png);
   background-position: right center;
   background-repeat: no-repeat;
-  padding: 1em 1.5em;
+  padding: 1rem 1.5rem;
   border: none;
   outline: none;
 }
@@ -162,13 +162,13 @@ h3, .small-header-text {
   z-index: 1;
 }
 .menu .menu-items {
-  padding: 4em 0 3em;
+  padding: 4rem 0 3rem;
 }
 .menu .menu-items a {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   text-align: right;
   color: #121212;
   text-decoration: none;
@@ -180,11 +180,11 @@ h3, .small-header-text {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 20px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.08rem;
   color: #425563;
-  margin: 0 1em;
+  margin: 0 1rem;
 }
 
 /* Header */
@@ -198,12 +198,12 @@ h3, .small-header-text {
 
 /* Services summary */
 .services-summary-section {
-  padding: 10em 5.5%;
+  padding: 10rem 5.5%;
 }
 
 /* Buy agreement section */
 .buy-agreement-section {
-  padding: 16em 0;
+  padding: 16rem 0;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 38.08%, rgba(255, 255, 255, 0) 101.55%), url(../images/signing_an_agreement.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -212,59 +212,55 @@ h3, .small-header-text {
 
 /* Latest News section */
 .latest-news-section {
-  padding: 11em 0;
+  padding: 11rem 0;
 }
 
 /* News Component */
 .news-component {
   background-color: #F7F7F7;
   border-radius: 10px;
-  padding: 1.5em 1em;
+  padding: 1.5rem 1rem;
 }
 .news-component .smaller-title {
   color: #9B6E3D;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
 /* About Us section */
 .about-us-section {
   padding: 16rem 0;
-  background: linear-gradient(269.52deg, rgba(255, 255, 255, 0.97) 6.01%, rgba(255, 255, 255, 0) 60.09%), url(../images/legal_advice.png);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: linear-gradient(-269.52deg, #fffffff7 6.01%, rgba(255, 255, 255, 0) 60.09%), url(../images/legal_advice.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.about-us-section .text {
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-}
 
 /* Legal Encyclopedia section */
 .legal-encyclopedia-section {
-  padding: 11em 0;
+  padding: 11rem 0;
 }
 .legal-encyclopedia-section .timestamp {
   color: #9B6E3D;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
 }
 .legal-encyclopedia-section .blog-title {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   color: #121212;
-  margin: 4em 0 0;
+  margin: 4rem 0 0;
 }
 
 /* Footer */
 footer {
   background-color: #121212;
   color: #FFFFFF;
-  padding: 4.5em 50% 9em;
+  padding: 4.5rem 50% 9rem;
 }
 footer hr {
   border-top: 1px solid #FFFFFF;
@@ -273,7 +269,7 @@ footer .site-links a {
   display: block;
   color: #FFFFFF;
   text-decoration: none;
-  margin: 0.5em 0;
+  margin: 0.5rem 0;
 }
 footer .site-links a:hover, footer .site-links a:focus {
   color: #C6A53C;
