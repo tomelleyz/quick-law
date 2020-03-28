@@ -70,7 +70,7 @@
     
 
     <!-- Page header section -->
-    <header class="d-flex align-items-center justify-content-center text-center header-section">
+    <header class="container-fluid d-flex align-items-center justify-content-center text-center header-section">
         <div class="container">
             <div>
                 <h3 class="secondary-brand">GOOD MORNING!</h3>
@@ -80,7 +80,7 @@
                     <button class="btn dropdown-toggle rounded-pill bg-white px-5 py-3 text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         I’d like to get my company incorporated
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
                       <a class="dropdown-item" href="#">Something else here</a>
@@ -106,9 +106,9 @@
     </section>
 
     <!-- Buy Agreement Section -->
-    <section class="d-flex align-items-center justify-content-center text-center buy-agreement-section">
-        <div class="container">
-            <div>
+    <section class="container-fluid d-flex align-items-center justify-content-center text-center buy-agreement-section">
+        <div class="row">
+            <div class="col-12 col-md-9 col-lg-6 ml-auto mr-auto">
                 <h3 class="secondary-brand">OUR SERVICES</h3>
                 <h1>Buy an agreement</h1>
                 <p>
@@ -116,11 +116,11 @@
                     Agreements have been drafted to enable you to insert key information with ease.
                 </p>
 
-                <div class="dropdown">
-                    <button class="btn dropdown-toggle bg-white rounded-pill px-5 py-3 text-left type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropdown ">
+                    <button class="btn dropdown-toggle bg-white rounded-pill px-5 py-3 text-left w-75" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Select an agreement 
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <a class="dropdown-item" href="#">Something else here</a>
@@ -131,7 +131,7 @@
     </section>
 
     <!-- Latest News Section-->
-    <section class="text-center latest-news-section bg-white">
+    <section class="container-fluid text-center latest-news-section bg-white">
         <h3 class="secondary-brand">LATEST NEWS</p>
         <h1 class="mb-5">Leading stories from Nigeria</h1>
 
@@ -215,7 +215,7 @@
     <!-- About Us section -->
     <section class="container-fluid d-flex align-items-center about-us-section">
         <div class="row m-0">
-            <div class="col col-lg-7 text">
+            <div class="col-12 col-lg-6 mr-auto">
                 <h3 class="secondary-brand">ABOUT US</h3>
                 <h1>Meet our dynamic team of lawyers</h1>
                 <p>
@@ -229,7 +229,7 @@
     </section>
 
     <!-- Legal Encyclopedia section -->
-    <section class="container-fluid text-center legal-encyclopedia-section">
+    <section class="text-center legal-encyclopedia-section">
         <h3 class="secondary-brand">LEGAL ENCYCLOPEDIA</h3>
         <h1 class="mb-5">Keep up with updates in the legal world.</h1>
         <div class="row m-0">
@@ -290,16 +290,17 @@
         <a class="btn outlined-button button-text btn-lg rounded-pill mt-5 px-4 py-3" href="#" role="button">See all blogposts</a>
     </section>
 
-    <footer class="container-fluid">
+    <!-- Footer -->
+    <footer>
         <div class="row m-0">
             <div class="col-12 col-sm-12 col-lg-4 mb-5 mb-lg-0">
                 <img src="images/quicklaw_logo.png" width="65%" alt="Quicklaw logo" class="img-fluid mb-5">
                 <p>
-                    <span class="mr-3"><img src="icons/location_icon.png" width="4%" alt="Location icon"></span>
+                    <span class="mr-4"><img src="icons/location_icon.png" width="4%" alt="Location icon"></span>
                     114 Awolowo Rd, Ikoyi, Lagos
                 </p>
                 <p>
-                    <span class="mr-2"><img src="icons/telephone_icon.png" width="5%" alt="Telephone icon"></span>
+                    <span class="mr-3"><img src="icons/telephone_icon.png" width="5%" alt="Telephone icon"></span>
                     0807 967 0571
                 </p>
             </div>
@@ -320,7 +321,7 @@
                     </span>
                 </p>
 
-                <hr class="mt-5">
+                <hr>
                 
                 <div class="site-links">
                     <a href="#">About us</a>
@@ -337,7 +338,7 @@
                     The use of Quicklaw is outlined in, and governed by, our <a href="#">Terms & Conditions.</a>
                 </p>
 
-                <hr class="my-4">
+                <hr class="my-5">
 
                 <p>Copyright &copy; 2020 Quicklaw Limited. All Rights Reserved</p>
             </div>

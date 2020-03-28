@@ -27,8 +27,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
-  color: #425563;
+  font-size: 16px;
+  background: #FFFFFF;
+  color: #121212;
 }
 
 /* Headers/Main & Body */
@@ -136,7 +137,7 @@ h3, .small-header-text {
 
 /* Navigation Bar */
 .nav-bar {
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
   background: transparent;
   transition: all 0.3s ease-in;
   /* Search box */
@@ -212,7 +213,7 @@ h3, .small-header-text {
 
 /* Latest News section */
 .latest-news-section {
-  padding: 11rem 0;
+  padding: 11rem 5.8vw;
 }
 
 /* News Component */
@@ -227,10 +228,13 @@ h3, .small-header-text {
   font-weight: 600;
   font-size: 1.1rem;
 }
+.news-component .timestamp {
+  color: #6D6E71;
+}
 
 /* About Us section */
 .about-us-section {
-  padding: 16rem 0;
+  padding: 16rem 5.8vw;
   background: linear-gradient(-269.52deg, #fffffff7 6.01%, rgba(255, 255, 255, 0) 60.09%), url(../images/legal_advice.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -239,7 +243,7 @@ h3, .small-header-text {
 
 /* Legal Encyclopedia section */
 .legal-encyclopedia-section {
-  padding: 11rem 0;
+  padding: 11rem 5.8vw;
 }
 .legal-encyclopedia-section .timestamp {
   color: #9B6E3D;
@@ -260,10 +264,11 @@ h3, .small-header-text {
 footer {
   background-color: #121212;
   color: #FFFFFF;
-  padding: 4.5rem 50% 9rem;
+  padding: 4.5rem 5.8vw 9rem;
 }
 footer hr {
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid #cdcdcd;
+  margin: 4.5rem 0 1.9375rem;
 }
 footer .site-links a {
   display: block;

@@ -9,7 +9,7 @@ function scrollFunction() {
     $(".nav-bar").css({"background": "#ffffff", "padding": "1em 3em"})
     .addClass("shadow-sm");
   } else {
-    $('.nav-bar').css({"background": "transparent", "padding": "2em 4em"})
+    $('.nav-bar').css({"background": "transparent", "padding": "2em 3em"})
     .removeClass("shadow-sm");
   }
 }

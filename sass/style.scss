@@ -4,7 +4,7 @@
 
 /* Navigation Bar */
 .nav-bar {
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
     background: transparent;
     transition: all 0.3s ease-in;
 
@@ -89,7 +89,7 @@
 
 /* Latest News section */
 .latest-news-section {
-    padding: 11rem 0;
+    padding: 11rem 5.8vw;
 }
 
 /* News Component */
@@ -104,11 +104,15 @@
         font-weight: 600;
         font-size: 1.1rem;
     }
+
+    .timestamp {
+        color: $text-03;
+    }
 }
 
 /* About Us section */ 
 .about-us-section {
-    padding: 16rem 0;
+    padding: 16rem 5.8vw;
     background: linear-gradient(-269.52deg, #fffffff7 6.01%, rgba(255, 255, 255, 0) 60.09%),
      url(../images/legal_advice.png);
     background-position: center;
@@ -119,7 +123,7 @@
 
 /* Legal Encyclopedia section */
 .legal-encyclopedia-section {
-    padding: 11rem 0;
+    padding: 11rem 5.8vw;
 
     .timestamp {
         color: $brand-02;
@@ -141,10 +145,11 @@
 footer {
     background-color: $text-01;
     color: $ui-01;
-    padding: 4.5rem 50% 9rem;
+    padding: 4.5rem 5.8vw 9rem;
 
     hr {
-        border-top: 1px solid $ui-01;
+        border-top: 1px solid #cdcdcd;
+        margin: 4.5rem 0 1.9375rem;
     }
     .site-links {
         a {
