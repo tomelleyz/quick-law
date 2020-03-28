@@ -6,10 +6,10 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
 
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-    $(".nav-bar").css({"background": "#ffffff", "padding": "1em 3em"})
+    $(".nav-bar").css({"background": "#ffffff", "padding": "1em 4.8vw"})
     .addClass("shadow-sm");
   } else {
-    $('.nav-bar').css({"background": "transparent", "padding": "2em 3em"})
+    $('.nav-bar').css({"background": "transparent", "padding": "1.5em 5.8vw"})
     .removeClass("shadow-sm");
   }
 }
@@ -23,7 +23,7 @@ $(".menu-icon").click(function(){
 
 // Function that closes Mobile Nav
 $(".close-menu-icon").click(function(){
-    $(".menu").css("top", "-97vh")
+    $(".menu").css("top", "-100%")
     $(".nav-bar").fadeIn("slow");
 });
 

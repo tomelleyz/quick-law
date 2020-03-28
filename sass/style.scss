@@ -4,7 +4,7 @@
 
 /* Navigation Bar */
 .nav-bar {
-    padding: 2rem 3rem;
+    padding: 1.5rem 5.8vw;
     background: transparent;
     transition: all 0.3s ease-in;
 
@@ -17,23 +17,37 @@
         padding: 1rem 1.5rem;
         border: none;
         outline: none;
-    }
+        width: 60%;
+        transition: all .25s ease-in-out;
 
-    .menu-icon {
-        background: transparent;
+            &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: $ui-01;
+                opacity: 1; /* Firefox */
+            }
 
+            &:focus {
+                background-color: $ui-01;
+                width: 100%; 
+
+                    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                        color: $text-01;
+                        opacity: 1; /* Firefox */
+                    }
+            }
     }
 }
 
 /* MENU */
 .menu {
     position: fixed;
-    top: -97vh;
+    top: -100%;
     transition: all 0.4s ease-in-out;
     z-index: 1;
+    padding: 2rem 5.8vw;
+    height: 78.5%;
 
     .menu-items {
-        padding: 4rem 0 3rem;
+        padding: 6rem 0;
 
         a {
             font-family: $main-header-font;
@@ -43,6 +57,8 @@
             text-align: right;
             color: $text-01;
             text-decoration: none;
+            margin-bottom: 1rem;
+            display: inline-block;
 
                 &:hover, &:focus {
                     color: $brand-01;
@@ -58,7 +74,7 @@
             line-height: 20px;
             letter-spacing: 0.08rem;
             color: $text-02;
-            margin: 0 1rem;
+            margin: 0 .5rem;
         }
     }
 }
