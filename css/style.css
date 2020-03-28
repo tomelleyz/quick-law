@@ -171,6 +171,13 @@ h3, .small-header-text {
   /* Firefox */
 }
 
+.dark-placeholder-text::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #121212 !important;
+  opacity: 1 !important;
+  /* Firefox */
+}
+
 /* MENU */
 .menu {
   position: fixed;
@@ -180,12 +187,11 @@ h3, .small-header-text {
   display: none;
   z-index: 1032;
   /* Greater than .body-overlay and .fixed-top classes */
-  padding: 5.9vh 5.8vw 5.18vh;
-  height: 78.5vh;
+  padding: 5.92593vh 5.8vw 5.18519vh;
+  height: 78.51852vh;
 }
 .menu .menu-items {
-  /*padding: 4rem 0 2.5rem;*/
-  padding: 11.8vh 0 11vh;
+  padding: 11.85185vh 0 11.11vh;
 }
 .menu .menu-items a {
   font-family: "Playfair Display", serif;
@@ -195,7 +201,7 @@ h3, .small-header-text {
   text-align: right;
   color: #121212;
   text-decoration: none;
-  margin-bottom: 2.96vh;
+  margin-bottom: 2.96296vh;
   display: inline-block;
 }
 .menu .menu-items a:last-of-type {
@@ -220,7 +226,8 @@ h3, .small-header-text {
 }
 
 .body-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background: rgba(58, 58, 58, 0.2);
+  box-shadow: 0px 4px 200px rgba(58, 58, 58, 0.25);
   display: none;
   /* initially hidden */
   z-index: 1031;
@@ -228,7 +235,7 @@ h3, .small-header-text {
   position: fixed;
   top: 0;
   left: 0;
-  transition: background-color 0.4s ease-in-out;
+  right: 0;
   min-width: 100%;
   min-height: 100%;
 }
