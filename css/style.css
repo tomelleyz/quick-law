@@ -175,6 +175,8 @@ h3, .small-header-text {
 .menu {
   position: fixed;
   top: 0;
+  right: 0;
+  left: 0;
   display: none;
   z-index: 1032;
   /* Greater than .body-overlay and .fixed-top classes */

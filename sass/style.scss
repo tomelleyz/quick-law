@@ -41,6 +41,8 @@
 .menu {
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     display: none;
     z-index: 1032; /* Greater than .body-overlay and .fixed-top classes */
     padding: 5.9vh 5.8vw 5.18vh;

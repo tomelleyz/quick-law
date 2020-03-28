@@ -23,7 +23,7 @@ $(".menu-icon").click(function(){
 });
 
 // Function that closes Mobile Nav
-$(".close-menu-icon").click(function(){
+$(".close-menu-icon, .body-overlay").click(function(){
     $(".menu").slideUp("fast");
     $(".body-overlay").fadeOut();
 });
