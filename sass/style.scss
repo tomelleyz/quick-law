@@ -4,7 +4,7 @@
 
 /* Navigation Bar */
 .nav-bar {
-    padding: 1.5rem 5.8vw;
+    padding: 5.92593vh 5.8vw;
     background: transparent;
     transition: all 0.3s ease-in;
 
@@ -112,6 +112,7 @@
 /* Header */
 .header-section {
     min-height: 100vh;
+    padding: 0 5.8vw;
     background-image: url(../images/header_image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -150,9 +151,17 @@
         font-weight: 600;
         font-size: 1.1rem;
     }
+    .excerpt {
+        margin-bottom: 4.5rem;
+    }
+}
 
+.latest-news-section {
     .timestamp {
         color: $text-03;
+        position: absolute;
+        bottom: 35px;
+        left: 35px;
     }
 }
 
