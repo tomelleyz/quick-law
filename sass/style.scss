@@ -53,7 +53,7 @@
     display: none;
     z-index: 1032; /* Greater than .body-overlay and .fixed-top classes */
     padding: 5.92593vh 5.8vw 5.18519vh;
-    height: 78.51852vh;
+    height: auto;
 
     .menu-items {
         padding: 11.85185vh 0 11.11vh;
@@ -67,6 +67,7 @@
             color: $text-01;
             text-decoration: none;
             margin-bottom: 2.96296vh;
+
             display: inline-block;
 
                 &:last-of-type {
@@ -83,10 +84,9 @@
             font-style: normal;
             font-weight: 600;
             font-size: 1rem;
-            line-height: 20px;
             letter-spacing: 0.08rem;
             color: $text-02;
-            margin: 0 .5rem;
+            margin: 0 1rem;
             text-decoration: none;
 
                 &:hover, &:focus {
@@ -184,7 +184,7 @@
         color: $brand-02;
         font-family: $body-font;
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
     .blog-title {
         font-family: $main-header-font;
