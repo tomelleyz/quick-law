@@ -18,12 +18,14 @@ function scrollFunction() {
 
 // Function that opens Mobile Nav 
 $(".menu-icon").click(function(){
+  $(".body-overlay").fadeIn();
     $(".menu").slideDown("fast");
 });
 
 // Function that closes Mobile Nav
 $(".close-menu-icon").click(function(){
     $(".menu").slideUp("fast");
+    $(".body-overlay").fadeOut();
 });
 
 });

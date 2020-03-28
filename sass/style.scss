@@ -42,7 +42,7 @@
     position: fixed;
     top: 0;
     display: none;
-    z-index: 1031; /* 0ne value higher than Boostrap v4 z-index for .fixed-top so it can overlap nav-bar */
+    z-index: 1032; /* Greater than .body-overlay and .fixed-top classes */
     padding: 5.9vh 5.8vw 5.18vh;
     height: 78.5vh;
 
@@ -88,6 +88,18 @@
     }
 }
 
+.body-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none; /* initially hidden */
+    z-index: 1031; /* one value greater than .fixed-top class */
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: background-color 0.4s ease-in-out;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 /* Header */
 .header-section {
     min-height: 100vh;
@@ -121,7 +133,7 @@
 .news-component {
     background-color: $ui-02;
     border-radius: 10px;
-    padding: 1.5rem 1rem;
+    padding: 2.5rem 1.5rem;
 
     .smaller-title {
         color: $brand-02;
@@ -170,7 +182,7 @@
 footer {
     background-color: $text-01;
     color: $ui-01;
-    padding: 4.5rem 5.8vw 9rem;
+    padding: 4.5rem 5.8vw 6rem;
 
     .social-media {
         margin-top: 7rem;
