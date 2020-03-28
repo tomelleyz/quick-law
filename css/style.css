@@ -174,14 +174,16 @@ h3, .small-header-text {
 /* MENU */
 .menu {
   position: fixed;
-  top: -100%;
-  transition: all 0.4s ease-in-out;
-  z-index: 1;
-  padding: 2rem 5.8vw;
-  height: 78.5%;
+  top: 0;
+  display: none;
+  z-index: 1031;
+  /* 0ne value higher than Boostrap v4 z-index for .fixed-top so it can overlap nav-bar */
+  padding: 5.9vh 5.8vw 5.18vh;
+  height: 78.5vh;
 }
 .menu .menu-items {
-  padding: 6rem 0;
+  /*padding: 4rem 0 2.5rem;*/
+  padding: 11.8vh 0 11vh;
 }
 .menu .menu-items a {
   font-family: "Playfair Display", serif;
@@ -191,8 +193,11 @@ h3, .small-header-text {
   text-align: right;
   color: #121212;
   text-decoration: none;
-  margin-bottom: 1rem;
+  margin-bottom: 2.96vh;
   display: inline-block;
+}
+.menu .menu-items a:last-of-type {
+  margin-bottom: 0;
 }
 .menu .menu-items a:hover, .menu .menu-items a:focus {
   color: #C6A53C;
@@ -206,6 +211,10 @@ h3, .small-header-text {
   letter-spacing: 0.08rem;
   color: #425563;
   margin: 0 0.5rem;
+  text-decoration: none;
+}
+.menu .social-media-links a:hover, .menu .social-media-links a:focus {
+  color: #C6A53C;
 }
 
 /* Header */
@@ -286,6 +295,9 @@ footer {
   color: #FFFFFF;
   padding: 4.5rem 5.8vw 9rem;
 }
+footer .social-media {
+  margin-top: 7rem;
+}
 footer hr {
   border-top: 1px solid #cdcdcd;
   margin: 4.5rem 0 1.9375rem;
@@ -298,6 +310,9 @@ footer .site-links a {
 }
 footer .site-links a:hover, footer .site-links a:focus {
   color: #C6A53C;
+}
+footer .terms-and-conditions {
+  margin-top: 7rem;
 }
 footer .terms-and-conditions a {
   color: #FFFFFF;

@@ -40,14 +40,15 @@
 /* MENU */
 .menu {
     position: fixed;
-    top: -100%;
-    transition: all 0.4s ease-in-out;
-    z-index: 1;
-    padding: 2rem 5.8vw;
-    height: 78.5%;
+    top: 0;
+    display: none;
+    z-index: 1031; /* 0ne value higher than Boostrap v4 z-index for .fixed-top so it can overlap nav-bar */
+    padding: 5.9vh 5.8vw 5.18vh;
+    height: 78.5vh;
 
     .menu-items {
-        padding: 6rem 0;
+        /*padding: 4rem 0 2.5rem;*/
+        padding: 11.8vh 0 11vh;
 
         a {
             font-family: $main-header-font;
@@ -57,9 +58,12 @@
             text-align: right;
             color: $text-01;
             text-decoration: none;
-            margin-bottom: 1rem;
+            margin-bottom: 2.96vh;
             display: inline-block;
 
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
                 &:hover, &:focus {
                     color: $brand-01;
                 }
@@ -75,6 +79,11 @@
             letter-spacing: 0.08rem;
             color: $text-02;
             margin: 0 .5rem;
+            text-decoration: none;
+
+                &:hover, &:focus {
+                    color: $brand-01;
+                }
         }
     }
 }
@@ -163,6 +172,10 @@ footer {
     color: $ui-01;
     padding: 4.5rem 5.8vw 9rem;
 
+    .social-media {
+        margin-top: 7rem;
+    }
+
     hr {
         border-top: 1px solid #cdcdcd;
         margin: 4.5rem 0 1.9375rem;
@@ -179,6 +192,8 @@ footer {
         }
     }
     .terms-and-conditions {
+        margin-top: 7rem;
+
         a {
             color: $ui-01;
             text-decoration: underline;
