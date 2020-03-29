@@ -34,7 +34,7 @@ body {
 
 @media (max-width: 991.98px) {
   body {
-    font-size: 0.875rem;
+    font-size: 14px;
   }
 }
 /* Headers/Main & Body */
@@ -143,7 +143,7 @@ h3, .small-header-text {
 
 /* Navigation Bar */
 .nav-bar {
-  padding: 5.92593vh 5.8vw;
+  padding: 1.5rem 5.8vw;
   background: transparent;
   transition: all 0.3s ease-in;
   /* Search box */
@@ -185,14 +185,10 @@ h3, .small-header-text {
 
 /* MENU */
 .menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
   display: none;
   z-index: 1032;
   /* Greater than .body-overlay and .fixed-top classes */
-  padding: 5.92593vh 5.8vw 5.18519vh;
+  padding: 1.5rem 5.8vw 5.18519vh;
   height: auto;
 }
 .menu .menu-items {
@@ -254,6 +250,11 @@ h3, .small-header-text {
   background-size: cover;
 }
 
+.dropdown-toggle::after {
+  display: none;
+  /* Removes Bootstraps default dropdown arrow */
+}
+
 /* Services summary */
 .services-summary-section {
   padding: 10rem 5.5%;
@@ -292,8 +293,11 @@ h3, .small-header-text {
 .latest-news-section .timestamp {
   color: #6D6E71;
   position: absolute;
-  bottom: 35px;
-  left: 35px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 1.5rem;
+  font-size: 0.875rem;
 }
 
 /* About Us section */
@@ -330,9 +334,6 @@ footer {
   color: #FFFFFF;
   padding: 4.5rem 5.8vw 6rem;
 }
-footer .social-media {
-  margin-top: 7rem;
-}
 footer hr {
   border-top: 1px solid #cdcdcd;
   margin: 4.5rem 0 1.9375rem;
@@ -346,15 +347,18 @@ footer .site-links a {
 footer .site-links a:hover, footer .site-links a:focus {
   color: #C6A53C;
 }
-footer .terms-and-conditions {
-  margin-top: 7rem;
-}
 footer .terms-and-conditions a {
   color: #FFFFFF;
   text-decoration: underline;
 }
 footer .terms-and-conditions a:hover, footer .terms-and-conditions a:focus {
   color: #C6A53C;
+}
+
+@media (max-width: 992px) {
+  footer .social-media, footer .terms-and-conditions {
+    margin-top: 7rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

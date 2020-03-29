@@ -4,7 +4,7 @@
 
 /* Navigation Bar */
 .nav-bar {
-    padding: 5.92593vh 5.8vw;
+    padding: 1.5rem 5.8vw;
     background: transparent;
     transition: all 0.3s ease-in;
 
@@ -46,13 +46,9 @@
 
 /* MENU */
 .menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
     display: none;
     z-index: 1032; /* Greater than .body-overlay and .fixed-top classes */
-    padding: 5.92593vh 5.8vw 5.18519vh;
+    padding: 1.5rem 5.8vw 5.18519vh;
     height: auto;
 
     .menu-items {
@@ -119,6 +115,10 @@
     background-size: cover;
 }
 
+.dropdown-toggle::after {
+    display: none; /* Removes Bootstraps default dropdown arrow */
+}
+
 /* Services summary */
 .services-summary-section {
     padding: 10rem 5.5%;
@@ -160,8 +160,11 @@
     .timestamp {
         color: $text-03;
         position: absolute;
-        bottom: 35px;
-        left: 35px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 2rem 1.5rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -202,10 +205,6 @@ footer {
     color: $ui-01;
     padding: 4.5rem 5.8vw 6rem;
 
-    .social-media {
-        margin-top: 7rem;
-    }
-
     hr {
         border-top: 1px solid #cdcdcd;
         margin: 4.5rem 0 1.9375rem;
@@ -222,7 +221,6 @@ footer {
         }
     }
     .terms-and-conditions {
-        margin-top: 7rem;
 
         a {
             color: $ui-01;
@@ -231,6 +229,14 @@ footer {
                 &:hover, &:focus {
                     color: $brand-01;
                 }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    footer {
+        .social-media, .terms-and-conditions {
+            margin-top: 7rem;
         }
     }
 }
